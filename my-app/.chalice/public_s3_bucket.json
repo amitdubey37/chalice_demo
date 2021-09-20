@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "S3Permission",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": ["s3:GetObject"],
+            "Resource": ["arn:aws:s3:::chalice-demo2/*"]
+        }
+    ]
+}
+
+Pool Id us-east-2_MshHcL28D
+Pool ARN arn:aws:cognito-idp:us-east-2:470181881791:userpool/us-east-2_MshHcL28D
+app_client_id = 5i83e56naf2039toolblajti95
+
+https://km-chalice.auth.us-east-2.amazoncognito.com
